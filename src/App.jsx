@@ -78,7 +78,15 @@ function App() {
         </a>                      
       </section>
        <section className="destaque">
-              <iframe src="https://www.youtube.com/embed/JIVp3erJDMo?si=rj2Mz98h-OnHSthR" frameborder="0" allow="autoplay; fullscreen"></iframe>
+        <iframe 
+        width="100%" 
+        height="315"
+        src="https://www.youtube.com/embed/JIVp3erJDMo?autoplay=1&mute=1&loop=1&playlist=JIVp3erJDMo" 
+        title="YouTube video player"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+</iframe>   
         </section>
 
         <footer>
